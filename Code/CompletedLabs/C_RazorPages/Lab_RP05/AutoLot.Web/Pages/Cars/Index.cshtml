@@ -1,0 +1,12 @@
+﻿@page
+@model AutoLot.Web.Pages.Cars.IndexModel
+@{
+    if (Model.MakeId.HasValue)
+    {
+        <h1>@Model.MakeName</h1>
+    }
+    else
+    {
+        <h1>All Makes</h1>
+    }
+}
