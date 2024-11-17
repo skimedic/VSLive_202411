@@ -1,0 +1,2 @@
+dotnet ef dbcontext scaffold "Server=.\DEV2019;Database=AdventureWorks2019;Trusted_Connection=True;encrypt=false;" Microsoft.EntityFrameworkCore.SqlServer --data-annotations -c ApplicationDbContext --context-dir .\Temp\Context -o .\Temp\Entities -n AutoLot.Models.Entities --context-namespace AutoLot.Dal.EfStructures --no-onconfiguring 
+
